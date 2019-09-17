@@ -93,21 +93,43 @@ class RX(object):
         self.threadResume()
         return(b)
 
-    def getNData(self, size, timer,timer2):
+    def getNData(self, size, timer1,timer2):
         """ Read N bytes of data from the reception buffer
         This function blocks until the number of bytes is received
         """
-
+        reenvio = False 
+        time_out = False
+        x = 0
         while(self.getBufferLen() < size):
+            x = 0
+            print('Aguardando dados...')
             if time.time() - timer2 > 20:
-                return -2    
-            if time.time() - timer > 5:
-                return -1
-            time.sleep(0.001)
+                reenvio = False
+                time_out = True
+                x = 1
+                break
+            elif time.time() - timer1 > 5:
+                reenvio = True
+                time_out = False
+                x = 1
+                break
+            time.sleep(0.1)
+
+        eop = bytes([0xF1]) + bytes([0xF2]) + bytes([0xF3])
+        vazio = 0
+        vazio = vazio.to_bytes(9, "little")
                 
-        return(self.getBuffer(size))
+        if x == 0:          
+            return(self.getBuffer(size), reenvio, time_out)
+        elif x == 1:
+            if not time_out:
+                deu_x = 0
+                return(deu_x.to_bytes(1, "little") + vazio + eop, reenvio, time_out)
+            else:
+                deu_x = 5
+                return(deu_x.to_bytes(1, "little") + vazio + eop, reenvio, time_out)
 
-
+ 
     def clearBuffer(self):
         """ Clear the reception buffer
         """
