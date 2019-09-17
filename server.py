@@ -11,7 +11,7 @@ from math import ceil
 
 def descobrir_tipo(head):
     tipo_mensagem = head[3:4]
-    tipo_mensagem = int.from_bytes(head, "little")
+    tipo_mensagem = int.from_bytes(tipo_mensagem, "little")
 
     return tipo_mensagem
 
@@ -20,9 +20,9 @@ def tirarStuffing(payload):
     eop = bytes([0xF1]) + bytes([0xF2]) + bytes([0xF3])
     payload = payload.replace(stuffing, eop)
 
-    return dado
+    return payload
 
-def ler_head(head, tipo):
+def ler_head(dado, tipo):
     tamanhoByte = dado[:3]
     tamanho = int.from_bytes(tamanhoByte, "little")
 
@@ -101,11 +101,18 @@ def ocioso(com):
     while ocioso:
         if com.rx.getIsEmpty():
             print("Esperando mensagem...")
+            time.sleep(0.1)
         else:
             print("Mensagem recebida")
-            head  = com.getData(10)[0]
-            if descobrir_tipo(head) == 1:
+            head  = com.getData(10, 2)[0]
+            print("head recebido", head)
+            if head == []:
+                print("Esperando mensagem...")
+                print("FUNFA")
+                com.rx.clearBuffer()
+            elif descobrir_tipo(head) == 1:
                 total_pacotes = ler_head(head, 1)[2]
+                print("ACHE ESSE PRINT UHULLLL", ler_head(head, 1)[1])
                 if ler_head(head, 1)[1] == server:
                     ocioso = False
                     forma_envio(2, com, 0)
@@ -114,8 +121,10 @@ def ocioso(com):
                     return total_pacotes
                     
                 else:
+                    print("Servidor incorreto")
                     time.sleep(1)
             else:
+                print("ENTROU NO ELSE", descobrir_tipo(head))
                 time.sleep(1)
             com.rx.clearBuffer()
 
@@ -147,30 +156,34 @@ def main():
     while i <= total_pacotes:
         timer1 = time.time()
         timer2 = time.time()
-        head, lenHead = com.getData(10)
+        head = com.getData(10, 1)[0]
         t3 = False
-        if descobrir_tipo(head) == 3:
+        if head == []:
+            print("Esperando...")
+            com.rx.clearBuffer()
+        elif head != [] and descobrir_tipo(head) == 3:
             t3 = True
             tamanho, numero_pacote, total_pacotes = ler_head(head, 3)
             if numero_pacote == i:
                 forma_envio(4, com, i)
-                payload += com.getData(tamanho)
-                eop = com.getData(3)
-                i += 1
+                payload += com.getData(tamanho, 1)[0]
+                eop = com.getData(3, 1)[0]
+                if i == total_pacotes:
+                    break
+                else:
+                    i += 1
             else:
                 forma_envio(6, com, i)    
                 com.rx.clearBuffer()
         else:
-            while not t3:
-                com.rx.clearBuffer()
-                time.sleep(1)
-                if timer2 > 20:
-                    forma_envio(5, com, i)
-                    break
-                else:
-                    if timer1 > 2:
-                        forma_envio(4, com, i)
-                        timer1 = time.time()
+            com.rx.clearBuffer()
+            time.sleep(1)
+            if (timer2 - time.time()) > 20:
+                forma_envio(5, com, i)
+                break
+            elif (timer1 - time.time()) > 2:          
+                forma_envio(4, com, i)
+                timer1 = time.time()
 
     if total_pacotes == i: 
         payload_destuffed = tirarStuffing(payload)
