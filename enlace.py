@@ -55,8 +55,6 @@ class enlace(object):
         Return the byte array and the size of the buffer
         """
         print('entrou na leitura e tentara ler ' + str(size))
-        data = self.rx.getNData(size,timer,timer2)
-        if data == -1 or data == -2:
-            return data, 0
+        data, reenvio, time_out = self.rx.getNData(size,timer,timer2)
        
-        return(data, len(data))
+        return(data, len(data),reenvio, time_out)
