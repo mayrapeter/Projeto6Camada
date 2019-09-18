@@ -12,6 +12,22 @@ import time
 from tkinter import filedialog, Tk
 from math import ceil
 
+def analisa_transmissao(throughput):
+    if throughput < 0:
+        return "Erro, analise não pode ser concluida"
+    elif throughput >= 0 and throughput < 400:
+        calculo = 2*throughput/400
+        if calculo >= 0 and calculo < 0.5:
+            return "muito lento"
+        elif calculo >= 0.5 and calculo < 1:
+            return "lento"
+        elif calculo >= 1 and calculo < 1.5:
+            return "bom"
+        else:
+            return "ótimo"
+    else:
+        return "excelente"
+
 def descobrir_tipo(head):
     tipo_mensagem = head[3:4]
     tipo_mensagem = int.from_bytes(tipo_mensagem, "little")
@@ -57,17 +73,18 @@ def main():
     # Carrega dados
     print ("gerando dados para transmissao :")
 
+    tempo_throughput = time.time()
     root = Tk()
     root.withdraw()
     objeto = filedialog.askopenfilename()
 
     with open(str(objeto), "rb") as image:
         f = image.read()
-        objeto_bytearray = bytearray(f)
+        objeto_bytearray_unstuffed = bytearray(f)
 
     eop =  bytes([0xF1]) + bytes([0xF2]) + bytes([0xF3])
     stuffing = bytes([0x00]) + bytes([0xF1]) + bytes([0x00]) + bytes([0xF2]) + bytes([0x00]) + bytes([0xF3])
-    objeto_bytearray = objeto_bytearray.replace(eop, stuffing)
+    objeto_bytearray = objeto_bytearray_unstuffed.replace(eop, stuffing)
     
     pacotes = [objeto_bytearray[x:x+128] for x in range(0, len(objeto_bytearray), 128)]
     n_pacotes = ceil(len(objeto_bytearray)/128)
@@ -86,7 +103,6 @@ def main():
         servidor_bytes = servidor.to_bytes(1, "little")
         tipo_mensagem = tipo_mensagem.to_bytes(1, "little")  
         head = tamanho_bytes + tipo_mensagem + servidor_bytes + n_pacotes_bytes + 2*vazio
-        print("head enviado", head)
         envio = head + payload + eop
         print('Mandando uma mensagem tipo 1')
         com.sendData(envio)
@@ -102,9 +118,11 @@ def main():
             if tipo_mensagem == 2: 
                 print("Mensagem tipo 2 recebida")
                 inicia = True
-            
+    terminou = False
     i = 1
+    j = 1
     while i <= n_pacotes:
+        recebido_t4 = False
         tipo_mensagem = 3
         tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
         payload = pacotes[i-1]
@@ -117,67 +135,100 @@ def main():
         com.sendData(envio)
         timer1 = time.time()
         timer2 = time.time()
-        head_response = com.getData(10, 2)[0]
-        com.rx.clearBuffer()
-        if head_response == []:
-            if time.time() - timer1 > 5:
-                com.sendData(envio)
-                timer1 = time.time()
-            if time.time() - timer2 > 20:
-                tipo_mensagem = 5
-                tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
-                payload = bytes([0x00])
-                tamanho = len(payload)
-                tamanho_bytes = tamanho.to_bytes(3, "little")
-                head = tamanho_bytes + tipo_mensagem_byte + 6*head_vazio
-                envio = head + payload + eop 
-                com.sendData(envio)
-                while(com.tx.getIsBussy()):
-                    pass
-                break
-        else:
-            tipo_mensagem = descobrir_tipo(head_response)
-            if tipo_mensagem == 4:
-                tamanho, numero_pacote = ler_head(head_response, 4)
-                if i == n_pacotes:
-                    break
-                else:
-                    i = numero_pacote + 1
-            else:
+        while not recebido_t4 and not terminou:
+            head_response = com.getData(10, 2)[0]
+            com.rx.clearBuffer()
+            if head_response == []:
                 if time.time() - timer1 > 5:
+                    print("Timer 1 passou de 5 segundos, reenviando")
                     com.sendData(envio)
+                    while(com.tx.getIsBussy()):
+                        pass
                     timer1 = time.time()
                 if time.time() - timer2 > 20:
+                    i = n_pacotes + 1
+                    print("Timer 2 passou de 20 segundos, encerrando conexão")
                     tipo_mensagem = 5
                     tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
                     payload = bytes([0x00])
                     tamanho = len(payload)
                     tamanho_bytes = tamanho.to_bytes(3, "little")
-                    head = tamanho_bytes + tipo_mensagem_byte + 6*head_vazio
+                    head = tamanho_bytes + tipo_mensagem_byte + 6*vazio
                     envio = head + payload + eop 
                     com.sendData(envio)
                     while(com.tx.getIsBussy()):
                         pass
                     break
+                    
+            else:
+                tipo_mensagem = descobrir_tipo(head_response)
+                if tipo_mensagem == 4:
+                    recebido_t4 = True
+                    tamanho, numero_pacote = ler_head(head_response, 4)
+                    if i == n_pacotes:
+                        tempo_throughput_final = time.time()
+                        terminou = True
+                        i += 1
+                        break
+                    else:
+                        print(f"Mensagem tipo 4 averiguando pacote {numero_pacote} recebida, aumentando contador para {numero_pacote + 1}")
+                        i = numero_pacote + 1
+                        j = i
+                        
+                elif tipo_mensagem == 5:
+                    print("mensagem tipo 5 recebida, encerrando conexão")
+                    break
                 elif tipo_mensagem == 6:
                     tamanho, numero_pacote = ler_head(head_response, 6)
+                    print(f"Recebeu mensagem tipo 6 orientando para envio de pacote {numero_pacote}, reestabelecendo contagem")
                     i = numero_pacote
+                    j = i
+                    tipo_mensagem = 3
+                    tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
+                    payload = pacotes[i-1]
+                    n_pacote = i.to_bytes(3, "little")
+                    tamanho_pacote = len(payload)
+                    tamanho_pacote_bytes = tamanho_pacote.to_bytes(3, "little")
+                    head = tamanho_pacote_bytes + tipo_mensagem_byte + n_pacote + n_pacotes_bytes    
+                    envio = head + payload + eop
+
+                    com.sendData(envio)
+                    while(com.tx.getIsBussy()):
+                        pass
+                else:
+                    if time.time() - timer1 > 5:
+                        print("Timer 1 passou de 5 segundos, reenviando")
+                        com.sendData(envio)   
+                        while(com.tx.getIsBussy()):
+                            pass
+                        timer1 = time.time()
+                    if time.time() - timer2 > 20:
+                        i = n_pacotes + 1
+                        print("Timer 2 passou de 20 segundos (mensagem tipo 5) , encerrando conexão")
+                        tipo_mensagem = 5
+                        tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
+                        payload = bytes([0x00])
+                        tamanho = len(payload)
+                        tamanho_bytes = tamanho.to_bytes(3, "little")
+                        head = tamanho_bytes + tipo_mensagem_byte + 6*vazio
+                        envio = head + payload + eop 
+                        com.sendData(envio)
+                        while(com.tx.getIsBussy()):
+                            pass
+                        break
+                    
     print(i)
+    print(j)
     print(n_pacotes)
-    if i == n_pacotes:
+    if j == n_pacotes:
         print("Comunicação realizada com sucesso!")
 
     else:
         print("Comunicação interrompida :(")
 
-
-                
-                
-        
-
-
-    
-
+    throughput = len(objeto_bytearray_unstuffed)/(tempo_throughput_final - tempo_throughput)
+    print("Through put", throughput)       
+    print("A avaliação do through put é:", analisa_transmissao(throughput))
    
     # Encerra comunicação
     print("-------------------------")

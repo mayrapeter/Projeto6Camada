@@ -80,6 +80,7 @@ def forma_envio(tipo_mensagem, com, ultimo_pct):
         while(com.tx.getIsBussy()):
             pass
         time.sleep(0.01)
+        print("Mensagem tipo 5 enviada, encerrando conexão")
 
     elif tipo_mensagem == 6:
         tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
@@ -105,14 +106,11 @@ def ocioso(com):
         else:
             print("Mensagem recebida")
             head  = com.getData(10, 2)[0]
-            print("head recebido", head)
             if head == []:
                 print("Esperando mensagem...")
-                print("FUNFA")
                 com.rx.clearBuffer()
             elif descobrir_tipo(head) == 1:
                 total_pacotes = ler_head(head, 1)[2]
-                print("ACHE ESSE PRINT UHULLLL", ler_head(head, 1)[1])
                 if ler_head(head, 1)[1] == server:
                     ocioso = False
                     forma_envio(2, com, 0)
@@ -124,7 +122,6 @@ def ocioso(com):
                     print("Servidor incorreto")
                     time.sleep(1)
             else:
-                print("ENTROU NO ELSE", descobrir_tipo(head))
                 time.sleep(1)
             com.rx.clearBuffer()
 
@@ -149,43 +146,65 @@ def main():
     #Fica ocioso até receber uma mensagem tipo 1
     total_pacotes = ocioso(com)
     i = 1
-
+    j = 1
 
     #comeca a leitura dos pacotes
     payload = b""
     while i <= total_pacotes:
         timer1 = time.time()
         timer2 = time.time()
-        head = com.getData(10, 1)[0]
         t3 = False
-        if head == []:
-            print("Esperando...")
-            com.rx.clearBuffer()
-        elif head != [] and descobrir_tipo(head) == 3:
-            t3 = True
-            tamanho, numero_pacote, total_pacotes = ler_head(head, 3)
-            if numero_pacote == i:
-                forma_envio(4, com, i)
-                payload += com.getData(tamanho, 1)[0]
-                eop = com.getData(3, 1)[0]
-                if i == total_pacotes:
-                    break
-                else:
-                    i += 1
-            else:
-                forma_envio(6, com, i)    
+        while not t3:
+            head = com.getData(10, 1)[0]
+            if head == []:
+                print("Esperando dentro do while...")
                 com.rx.clearBuffer()
-        else:
-            com.rx.clearBuffer()
-            time.sleep(1)
-            if (timer2 - time.time()) > 20:
-                forma_envio(5, com, i)
+                time.sleep(1)
+                if (time.time() - timer2) > 20:
+                    forma_envio(5, com, i)
+                    i = total_pacotes + 1
+                    print("Timer 2 passou de 20 segundos, encerrando") 
+                    break
+                elif (time.time() - timer1) > 2: 
+                    print("Timer 1 passou de 2 segundos, reenviando")         
+                    forma_envio(4, com, i)
+                    timer1 = time.time()
+            elif head != [] and descobrir_tipo(head) == 3:
+                t3 = True
+                tamanho, numero_pacote, total_pacotes = ler_head(head, 3)
+                if numero_pacote == i:
+                    forma_envio(4, com, i)
+                    print(f"Pacote {i} recebido e mensagem tipo 4 enviada")
+                    payload += com.getData(tamanho, 1)[0]
+                    eop = com.getData(3, 1)[0]
+                    if i == total_pacotes:
+                        i += 1
+                        break
+                    else:
+                        i += 1
+                        j = i
+                else:
+                    forma_envio(6, com, i)   
+                    print(f"Pacote {i} esperado, orientando para reenvio com mensagem tipo 6")
+                    com.rx.clearBuffer()
+            elif descobrir_tipo(head) == 5:
+                print("mensagem tipo 5 recebida, encerrando conexão")
                 break
-            elif (timer1 - time.time()) > 2:          
-                forma_envio(4, com, i)
-                timer1 = time.time()
-
-    if total_pacotes == i: 
+            else:
+                com.rx.clearBuffer()
+                time.sleep(1)
+                if (time.time() - timer2) > 20:
+                    forma_envio(5, com, i)
+                    i = total_pacotes + 1
+                    print("Timer 2 passou de 20 segundos, encerrando") 
+                    break
+                elif (time.time() - timer1) > 2:          
+                    forma_envio(4, com, i)
+                    print("Timer 1 passou de 2 segundos, reenviando") 
+                    timer1 = time.time()
+    print(i)
+    print(j)
+    if total_pacotes == j: 
         payload_destuffed = tirarStuffing(payload)
         nome = input("Qual é o nome desejado?")
 

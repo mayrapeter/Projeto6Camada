@@ -100,7 +100,7 @@ class RX(object):
         atual = time.time()
         vazio = []
         while(self.getBufferLen() < size):
-            if (atual - time.time()) > timer1:
+            if (time.time() - atual) > timer1:
                 print("RETORNO DE HEAD VAZIO")
                 return vazio
             
