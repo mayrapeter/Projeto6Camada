@@ -18,15 +18,15 @@ def analisa_transmissao(throughput):
     elif throughput >= 0 and throughput < 400:
         calculo = 2*throughput/400
         if calculo >= 0 and calculo < 0.5:
-            return "muito lento"
+            return calculo,"muito lento"
         elif calculo >= 0.5 and calculo < 1:
-            return "lento"
+            return calculo,"lento"
         elif calculo >= 1 and calculo < 1.5:
-            return "bom"
+            return calculo,"bom"
         else:
-            return "ótimo"
+            return calculo,"ótimo"
     else:
-        return "excelente"
+        return 2, "excelente"
 
 def descobrir_tipo(head):
     tipo_mensagem = head[3:4]
@@ -73,7 +73,6 @@ def main():
     # Carrega dados
     print ("gerando dados para transmissao :")
 
-    tempo_throughput = time.time()
     root = Tk()
     root.withdraw()
     objeto = filedialog.askopenfilename()
@@ -82,6 +81,7 @@ def main():
         f = image.read()
         objeto_bytearray_unstuffed = bytearray(f)
 
+    tempo_throughput = time.time()
     eop =  bytes([0xF1]) + bytes([0xF2]) + bytes([0xF3])
     stuffing = bytes([0x00]) + bytes([0xF1]) + bytes([0x00]) + bytes([0xF2]) + bytes([0x00]) + bytes([0xF3])
     objeto_bytearray = objeto_bytearray_unstuffed.replace(eop, stuffing)
@@ -228,7 +228,7 @@ def main():
 
     throughput = len(objeto_bytearray_unstuffed)/(tempo_throughput_final - tempo_throughput)
     print("Through put", throughput)       
-    print("A avaliação do through put é:", analisa_transmissao(throughput))
+    print("A avaliação do through put é:", analisa_transmissao(throughput)[0], "de 0 à 2,que corresponde a:", analisa_transmissao(throughput)[1])
    
     # Encerra comunicação
     print("-------------------------")
