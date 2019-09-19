@@ -1,0 +1,182 @@
+
+Msg: Mandando uma mensagem tipo 1 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 2 recebida Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 2 recebida, aumentando contador para 3 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Recebeu mensagem tipo 6 orientando para envio de pacote 3, reestabelecendo contagem Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 3 recebida, aumentando contador para 4 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 4 recebida, aumentando contador para 5 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 7 recebida, aumentando contador para 8 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 8 recebida, aumentando contador para 9 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 9 recebida, aumentando contador para 10 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 10 recebida, aumentando contador para 11 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Comunicação realizada com sucesso! Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Through put: 119.49033215394167 Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: A avaliação do through put é: 0.5974516607697083 de 0 à 2 que corresponde a: lento Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:53:32 – destinatário: Client 
+
+Msg: Mandando uma mensagem tipo 1 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 2 recebida Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 2 recebida, aumentando contador para 3 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 3 recebida, aumentando contador para 4 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 4 recebida, aumentando contador para 5 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Timer 2 passou de 20 segundos, encerrando conexão Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Comunicação interrompida :( Recebida: 19/09/2019 14:56:06 – destinatário: Client 
+
+Msg: Mandando uma mensagem tipo 1 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 2 recebida Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 2 recebida, aumentando contador para 3 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 3 recebida, aumentando contador para 4 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 4 recebida, aumentando contador para 5 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 7 recebida, aumentando contador para 8 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 8 recebida, aumentando contador para 9 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 9 recebida, aumentando contador para 10 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 10 recebida, aumentando contador para 11 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Comunicação realizada com sucesso! Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Through put: 124.8980514685378 Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: A avaliação do through put é: 0.624490257342689 de 0 à 2 que corresponde a: lento Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:13:56 – destinatário: Client 
+
+Msg: Mandando uma mensagem tipo 1 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 2 recebida Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 2 recebida, aumentando contador para 3 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Recebeu mensagem tipo 6 orientando para envio de pacote 3, reestabelecendo contagem Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 3 recebida, aumentando contador para 4 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 4 recebida, aumentando contador para 5 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Recebeu mensagem tipo 6 orientando para envio de pacote 5, reestabelecendo contagem Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Recebeu mensagem tipo 6 orientando para envio de pacote 5, reestabelecendo contagem Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 5 recebida, aumentando contador para 6 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 7 recebida, aumentando contador para 8 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 8 recebida, aumentando contador para 9 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 9 recebida, aumentando contador para 10 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 10 recebida, aumentando contador para 11 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Comunicação realizada com sucesso! Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Through put: 53.93394502053299 Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: A avaliação do through put é: 0.26966972510266496 de 0 à 2 que corresponde a: muito lento Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:14:40 – destinatário: Client 
+
+Msg: Mandando uma mensagem tipo 1 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 2 recebida Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 1 recebida, aumentando contador para 2 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 2 recebida, aumentando contador para 3 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 3 recebida, aumentando contador para 4 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 4 recebida, aumentando contador para 5 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Timer 1 passou de 5 segundos, reenviando Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Recebeu mensagem tipo 6 orientando para envio de pacote 6, reestabelecendo contagem Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 6 recebida, aumentando contador para 7 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 7 recebida, aumentando contador para 8 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 8 recebida, aumentando contador para 9 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 9 recebida, aumentando contador para 10 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Mensagem tipo 4 averiguando pacote 10 recebida, aumentando contador para 11 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Comunicação realizada com sucesso! Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Through put: 57.62108712536619 Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: A avaliação do through put é: 0.28810543562683094 de 0 à 2 que corresponde a: muito lento Recebida: 19/09/2019 15:37:54 – destinatário: Client 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:37:54 – destinatário: Client 

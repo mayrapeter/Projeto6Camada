@@ -132,7 +132,7 @@ def ocioso(com):
                 time.sleep(1)
             com.rx.clearBuffer()
 
-serialName = "COM12"              
+serialName = "COM16"              
 print(f"abriu com {serialName}")
 
 def main():

@@ -62,3 +62,955 @@ Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 –
 Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
 
 Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:32:05 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:38:00 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:41:36 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:43:05 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:48:51 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:53:30 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Mensagem tipo 5 enviada, encerrando conexão Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Timer 2 passou de 20 segundos, encerrando Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 14:56:03 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:13:53 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 3 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 5 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 5 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:14:37 – destinatário: Server 
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg:   porta : COM16 Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 6 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 6 esperado, orientando para reenvio com mensagem tipo 6 Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 15:37:52 – destinatário: Server 
+
+Msg: Comunicação encerrada Recebida: 19/09/2019 15:37:52 – destinatário: Server 

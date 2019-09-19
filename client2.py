@@ -73,7 +73,7 @@ def ler_head(dado, tipo):
 #   para saber a sua porta, execute no terminal :
 #   python -m serial.tools.list_ports
 
-serialName = "COM11"                  # Windows(variacao de)
+serialName = "COM17"                  # Windows(variacao de)
 print("abriu com")
 
 def main():
@@ -252,16 +252,15 @@ def main():
     if j == n_pacotes:
         print("Comunicação realizada com sucesso!")
         log("Comunicação realizada com sucesso!", "client")
+        throughput = len(objeto_bytearray_unstuffed)/(tempo_throughput_final - tempo_throughput)
+        print("Through put", throughput)  
+        log("Through put: {0}".format(throughput), "client")     
+        print("A avaliação do through put é:", analisa_transmissao(throughput)[0], "de 0 à 2,que corresponde a:", analisa_transmissao(throughput)[1])
+        log("A avaliação do through put é: {0} de 0 à 2 que corresponde a: {1}".format(analisa_transmissao(throughput)[0],analisa_transmissao(throughput)[1]), "client")
 
     else:
         print("Comunicação interrompida :(")
         log("Comunicação interrompida :(", "client")
-
-    throughput = len(objeto_bytearray_unstuffed)/(tempo_throughput_final - tempo_throughput)
-    print("Through put", throughput)  
-    log("Through put: {0}".format(throughput), "client")     
-    print("A avaliação do through put é:", analisa_transmissao(throughput)[0], "de 0 à 2,que corresponde a:", analisa_transmissao(throughput)[1])
-    log("A avaliação do through put é: {0} de 0 à 2 que corresponde a: {1}".format(analisa_transmissao(throughput)[0],analisa_transmissao(throughput)[1]), "client")
    
     # Encerra comunicação
     print("-------------------------")
