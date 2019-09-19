@@ -7,6 +7,7 @@ Created on Sun Sep 15 19:53:00 2019
 
 from enlace import *
 import time
+import client2
 from math import ceil
 
 def descobrir_tipo(head):
@@ -81,6 +82,7 @@ def forma_envio(tipo_mensagem, com, ultimo_pct):
             pass
         time.sleep(0.01)
         print("Mensagem tipo 5 enviada, encerrando conexão")
+        client2.log("Mensagem tipo 5 enviada, encerrando conexão", "server")
 
     elif tipo_mensagem == 6:
         tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
@@ -102,12 +104,15 @@ def ocioso(com):
     while ocioso:
         if com.rx.getIsEmpty():
             print("Esperando mensagem...")
+            client2.log("Esperando mensagem...", "server")
             time.sleep(0.1)
         else:
             print("Mensagem recebida")
+            client2.log("Mensagem recebida", "server")
             head  = com.getData(10, 2)[0]
             if head == []:
                 print("Esperando mensagem...")
+                client2.log("Esperando mensagem...", "server")
                 com.rx.clearBuffer()
             elif descobrir_tipo(head) == 1:
                 total_pacotes = ler_head(head, 1)[2]
@@ -115,17 +120,19 @@ def ocioso(com):
                     ocioso = False
                     forma_envio(2, com, 0)
                     print("Na escuta!")
+                    client2.log("Na escuta!", "server")
                     com.rx.clearBuffer()
                     return total_pacotes
                     
                 else:
                     print("Servidor incorreto")
+                    client2.log("Servidor incorreto", "server")
                     time.sleep(1)
             else:
                 time.sleep(1)
             com.rx.clearBuffer()
 
-serialName = "COM17"              
+serialName = "COM12"              
 print(f"abriu com {serialName}")
 
 def main():
@@ -140,7 +147,9 @@ def main():
     # Log
     print("-------------------------")
     print("Comunicação inicializada")
+    client2.log("Comunicação inicializada", "server")
     print("  porta : {}".format(com.fisica.name))
+    client2.log("  porta : {}".format(com.fisica.name), "server")
     print("-------------------------")
 
     #Fica ocioso até receber uma mensagem tipo 1
@@ -158,15 +167,18 @@ def main():
             head = com.getData(10, 1)[0]
             if head == []:
                 print("Esperando dentro do while...")
+                client2.log("Esperando dentro do while...", "server")
                 com.rx.clearBuffer()
                 time.sleep(1)
                 if (time.time() - timer2) > 20:
                     forma_envio(5, com, i)
                     i = total_pacotes + 1
                     print("Timer 2 passou de 20 segundos, encerrando") 
+                    client2.log("Timer 2 passou de 20 segundos, encerrando", "server")
                     break
                 elif (time.time() - timer1) > 2: 
-                    print("Timer 1 passou de 2 segundos, reenviando")         
+                    print("Timer 1 passou de 2 segundos, reenviando")  
+                    client2.log("Timer 1 passou de 2 segundos, reenviando", "server")       
                     forma_envio(4, com, i)
                     timer1 = time.time()
             elif head != [] and descobrir_tipo(head) == 3:
@@ -175,6 +187,7 @@ def main():
                 if numero_pacote == i:
                     forma_envio(4, com, i)
                     print(f"Pacote {i} recebido e mensagem tipo 4 enviada")
+                    client2.log(f"Pacote {i} recebido e mensagem tipo 4 enviada", "server")
                     payload += com.getData(tamanho, 1)[0]
                     eop = com.getData(3, 1)[0]
                     if i == total_pacotes:
@@ -186,9 +199,11 @@ def main():
                 else:
                     forma_envio(6, com, i)   
                     print(f"Pacote {i} esperado, orientando para reenvio com mensagem tipo 6")
+                    client2.log(f"Pacote {i} esperado, orientando para reenvio com mensagem tipo 6", "server")
                     com.rx.clearBuffer()
             elif descobrir_tipo(head) == 5:
                 print("mensagem tipo 5 recebida, encerrando conexão")
+                client2.log("mensagem tipo 5 recebida, encerrando conexão", "server")
                 break
             else:
                 com.rx.clearBuffer()
@@ -197,10 +212,12 @@ def main():
                     forma_envio(5, com, i)
                     i = total_pacotes + 1
                     print("Timer 2 passou de 20 segundos, encerrando") 
+                    client2.log("Timer 2 passou de 20 segundos, encerrando", "server")
                     break
                 elif (time.time() - timer1) > 2:          
                     forma_envio(4, com, i)
                     print("Timer 1 passou de 2 segundos, reenviando") 
+                    client2.log("Timer 1 passou de 2 segundos, reenviando", "server")
                     timer1 = time.time()
     print(i)
     print(j)
@@ -217,6 +234,7 @@ def main():
     # Encerra comunicação
     print("-------------------------")
     print("Comunicação encerrada")
+    client2.log("Comunicação encerrada", "server")
     print("-------------------------")
     com.disable()
 

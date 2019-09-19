@@ -58,3 +58,4 @@ class enlace(object):
         data = self.rx.getNData(size, timer)
        
         return(data, len(data))
+     

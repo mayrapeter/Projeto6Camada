@@ -11,6 +11,24 @@ from enlace import *
 import time
 from tkinter import filedialog, Tk
 from math import ceil
+from datetime import datetime
+now = datetime.now()
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
+def log(message, sender):
+    if sender == "client":
+        with open('LogClient.txt', 'a') as arquivo:
+            arquivo.write("\nMsg: {0} Recebida: {1} – destinatário: Client \n".format(message,dt_string))
+    elif sender == "server":
+        with open('LogServer.txt', 'a') as arquivo:
+            arquivo.write("\nMsg: {0} Recebida: {1} – destinatário: Server \n".format(message,dt_string))
+    else:
+        with open('LogClient.txt', 'a') as arquivo:
+            arquivo.write("\nMsg: {0} Recebida: {1} – destinatário: Client \n".format(message,dt_string))
+        with open('LogServer.txt', 'a') as arquivo:
+            arquivo.write("\nMsg: {0} Recebida: {1} – destinatário: Server \n".format(message,dt_string))
+
 
 def analisa_transmissao(throughput):
     if throughput < 0:
@@ -27,6 +45,7 @@ def analisa_transmissao(throughput):
             return calculo,"ótimo"
     else:
         return 2, "excelente"
+
 
 def descobrir_tipo(head):
     tipo_mensagem = head[3:4]
@@ -54,7 +73,7 @@ def ler_head(dado, tipo):
 #   para saber a sua porta, execute no terminal :
 #   python -m serial.tools.list_ports
 
-serialName = "COM16"                  # Windows(variacao de)
+serialName = "COM11"                  # Windows(variacao de)
 print("abriu com")
 
 def main():
@@ -105,6 +124,7 @@ def main():
         head = tamanho_bytes + tipo_mensagem + servidor_bytes + n_pacotes_bytes + 2*vazio
         envio = head + payload + eop
         print('Mandando uma mensagem tipo 1')
+        log("Mandando uma mensagem tipo 1", "client")
         com.sendData(envio)
 
         time.sleep(5)
@@ -113,10 +133,12 @@ def main():
         if head == []:
             com.rx.clearBuffer()
             print("Esperando...")
+            log("Esperando...", "client")
         else:
             tipo_mensagem = descobrir_tipo(head)
             if tipo_mensagem == 2: 
                 print("Mensagem tipo 2 recebida")
+                log("Mensagem tipo 2 recebida", "client")
                 inicia = True
     terminou = False
     i = 1
@@ -141,6 +163,7 @@ def main():
             if head_response == []:
                 if time.time() - timer1 > 5:
                     print("Timer 1 passou de 5 segundos, reenviando")
+                    log("Timer 1 passou de 5 segundos, reenviando", "client")
                     com.sendData(envio)
                     while(com.tx.getIsBussy()):
                         pass
@@ -148,6 +171,7 @@ def main():
                 if time.time() - timer2 > 20:
                     i = n_pacotes + 1
                     print("Timer 2 passou de 20 segundos, encerrando conexão")
+                    log("Timer 2 passou de 20 segundos, encerrando conexão", "client")
                     tipo_mensagem = 5
                     tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
                     payload = bytes([0x00])
@@ -172,15 +196,18 @@ def main():
                         break
                     else:
                         print(f"Mensagem tipo 4 averiguando pacote {numero_pacote} recebida, aumentando contador para {numero_pacote + 1}")
+                        log(f"Mensagem tipo 4 averiguando pacote {numero_pacote} recebida, aumentando contador para {numero_pacote + 1}", "client")
                         i = numero_pacote + 1
                         j = i
                         
                 elif tipo_mensagem == 5:
                     print("mensagem tipo 5 recebida, encerrando conexão")
+                    log("mensagem tipo 5 recebida, encerrando conexão", "client")
                     break
                 elif tipo_mensagem == 6:
                     tamanho, numero_pacote = ler_head(head_response, 6)
                     print(f"Recebeu mensagem tipo 6 orientando para envio de pacote {numero_pacote}, reestabelecendo contagem")
+                    log(f"Recebeu mensagem tipo 6 orientando para envio de pacote {numero_pacote}, reestabelecendo contagem", "client")
                     i = numero_pacote
                     j = i
                     tipo_mensagem = 3
@@ -198,6 +225,7 @@ def main():
                 else:
                     if time.time() - timer1 > 5:
                         print("Timer 1 passou de 5 segundos, reenviando")
+                        log("Timer 1 passou de 5 segundos, reenviando", "client")
                         com.sendData(envio)   
                         while(com.tx.getIsBussy()):
                             pass
@@ -205,6 +233,7 @@ def main():
                     if time.time() - timer2 > 20:
                         i = n_pacotes + 1
                         print("Timer 2 passou de 20 segundos (mensagem tipo 5) , encerrando conexão")
+                        log("Timer 2 passou de 20 segundos (mensagem tipo 5) , encerrando conexão", "client")
                         tipo_mensagem = 5
                         tipo_mensagem_byte = tipo_mensagem.to_bytes(1, "little")
                         payload = bytes([0x00])
@@ -222,17 +251,22 @@ def main():
     print(n_pacotes)
     if j == n_pacotes:
         print("Comunicação realizada com sucesso!")
+        log("Comunicação realizada com sucesso!", "client")
 
     else:
         print("Comunicação interrompida :(")
+        log("Comunicação interrompida :(", "client")
 
     throughput = len(objeto_bytearray_unstuffed)/(tempo_throughput_final - tempo_throughput)
-    print("Through put", throughput)       
+    print("Through put", throughput)  
+    log("Through put: {0}".format(throughput), "client")     
     print("A avaliação do through put é:", analisa_transmissao(throughput)[0], "de 0 à 2,que corresponde a:", analisa_transmissao(throughput)[1])
+    log("A avaliação do through put é: {0} de 0 à 2 que corresponde a: {1}".format(analisa_transmissao(throughput)[0],analisa_transmissao(throughput)[1]), "client")
    
     # Encerra comunicação
     print("-------------------------")
     print("Comunicação encerrada")
+    log("Comunicação encerrada", "client")
     print("-------------------------")
     com.disable()
     #so roda o main quando for executado do terminal ... se for chamado dentro de outro modulo nao roda

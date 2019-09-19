@@ -1,0 +1,64 @@
+
+Msg: Comunicação inicializada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg:   porta : COM12 Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando mensagem... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Mensagem recebida Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Na escuta! Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Esperando dentro do while... Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Timer 1 passou de 2 segundos, reenviando Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 1 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 2 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 3 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 4 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 5 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 6 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 7 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 8 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 9 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 10 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
+
+Msg: Pacote 11 recebido e mensagem tipo 4 enviada Recebida: 19/09/2019 14:22:44 – destinatário: Server 
